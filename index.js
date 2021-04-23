@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.get('/', (req, res) => {
     let keyword = req.query.keyword;
 
-    let url = 'https://svcs.ebay.com/services/search/FindingService/v1'
+    let url = 'https://svcs.sandbox.ebay.com/services/search/FindingService/v1'
     url += '?OPERATION-NAME=findItemsByKeywords'
     url += '&SERVICE-VERSION=1.0.0'
     url += '&SECURITY-APPNAME=WandoInt-217b-42d8-a699-e79808dd505e'
