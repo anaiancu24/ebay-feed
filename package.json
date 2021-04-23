@@ -2,6 +2,10 @@
   "name": "ebay-finding",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "15.0.1",
+    "npm": "7.5.3"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
